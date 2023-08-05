@@ -26,10 +26,10 @@ def like():
    if '{"order":' in whisper.text:
     fol+=1000
     oid=str(whisper.json()['order'])
-    print(f'{G}[√] Order ID {E}==> {B}{oid} {E}| {G}Send {E}==> {B}{fol} {G}TG VIEW\nTHIS TOOL IS MADE BY @DARKMETHOD_TOOL')
+    print(f'{G}[√] Order ID {E}==> {B}{oid} {E}| {G}Send {E}==> {B}{fol} {G}TG VIEW\nTHIS TOOL IS MADE BY @dangerhack56')
    if 'Invalid API key' in whisper.text:
     print(f'{E}[×] Wrong Key')
-    print(f'{B}[=] DM TO BUY KEY==> {G}@L1L2Y')
+    print(f'{B}[=] DM TO BUY KEY==> {G}@saqibqaisrani1')
     exit()
    if 'Bad link' in whisper.text:
     likes(id,fol)
@@ -49,9 +49,9 @@ if 'Invalid API key' in whisper.text:
 else:
   os.system('clear')
   ch=input(f'''{B}[{G}01{B}] {S} TELEGRAM VIEW 
-{B}[{G}INSTAGRAM{B}] {S}@GWXOM
-{B}[{G}TELEGRAM{B}] {S}@L1L2Y
-{B}[{G}TELEGRAM{B}] {S}@DARKMETHOD_TOOL
+{B}[{G}INSTAGRAM{B}] {S}@muhammadsaqib5069
+{B}[{G}TELEGRAM{B}] {S}@saqibqaisrani1
+{B}[{G}TELEGRAM{B}] {S}@dangerhack56
 {G}[{B}${S}${G}] {G}Choose ==> ''')
   if ch == '1' or ch == '01':
    like()
